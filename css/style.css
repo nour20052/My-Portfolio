@@ -296,17 +296,36 @@ footer{
     height: 180px;
     border-radius: 50%;
     overflow: hidden;
+   
      }
 .hero-text{
     font-size: 14px;
      }
      .projects{
-        width:200px ;
-        height: 150px;
+        width:350px ;
+        border-radius: 10px;
+       
      }
-     .p-content{
-        max-width:110px;
+     .pro-1{
+      width:100%;
+      text-align: center;
      }
+     .pro-2{
+      width:100%;
+      text-align: center;
+      margin-bottom: 30px;
+     }
+     .pro-3{
+      width:100%;
+      text-align: center;
+     }
+     .head{
+      text-align: center;
+     }
+      .p-content{
+        max-width: 600px;
+        text-align: center;
+     } 
      .skills-title{ 
         font-size: 32px;
      }
