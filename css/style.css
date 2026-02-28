@@ -110,69 +110,70 @@ display: inline-block;
  background-color: rgba(23, 23, 63, 0.353);
  border-radius: 10px;
 }
-.form{
-    height: 80vh;
-}
-form{
-  text-align: left;
-  margin-top: 10px;
-}
-
-label{
-  display: block;
-  margin: 14px 0 6px;
-  color: rgba(255,255,255,.85);
-  font-size: 14px;
-}
-
-
- input,textarea{
-  width: 100%;
-  padding: 12px 14px;
-  border-radius: 6px;
-  border: 1px solid rgba(255,255,255,.15);
-  outline: none;
-  background: #b8b7b7;
-  color: #222;
-  font-size: 15px;
-}
-
- textarea{
-  resize: none;
-}
-
-
-input:focus , textarea:focus{
-  background:white;
-  border-color: rgba(103,166,255,.8);
-  box-shadow: 0 0 0 3px rgba(103,166,255,.2);
-}
-
-
-.submit-btn{
-  width: 100%;
-  margin-top: 18px;
-  padding: 14px 16px;
-  border: none;
-  border-radius: 10px;
-  background: #3b6e19c5;  
+.contact-section {
+  background: #000;
   color: #fff;
-  box-shadow:0 10px 30px #3b6e19c5 ;
-  font-size: 18px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: .2s ease;
 }
 
-.submit-btn:hover{
-  filter: brightness(1.5);
-  transform: translateY(-3px);
+.title {
+  font-weight: bold;
 }
 
-.submit-btn .arrow{
-  margin-left: 10px;
+
+.contact-card {
+  background: #0b0b0b;
+  padding: 25px;
+  border-radius: 15px;
+  border: 1px solid rgba(138, 43, 226, 0.3);
+}
+
+
+.custom-input {
+  background: transparent;
+  border: 2px solid #8a2be2;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px;
+}
+
+.custom-input:focus {
+  background: transparent;
+  color: #fff;
+  border-color: #a855f7;
+  box-shadow: 0 0 10px #8a2be2;
+}
+
+
+.send-btn {
+  background: linear-gradient(90deg, #8a2be2, #a855f7);
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.send-btn:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px #8a2be2;
+}
+
+.socials a{
+  text-decoration: none;
+  color: white;
+}
+
+.socials i {
   font-size: 22px;
-  vertical-align: middle;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.socials i:hover {
+  color: #a855f7;
+  transform: translateY(-3px);
 }
 footer{
     height: 10vh; 
