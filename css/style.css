@@ -7,8 +7,8 @@
    border-radius: 10px;
 }
 .nav-link:hover{
-   background-color: #344998;
-   box-shadow:0 10px 30px #344998;
+   background-color: #8a2be2;
+   box-shadow:0 10px 30px #892be2a2;
 
 }
 .social {
@@ -38,7 +38,7 @@ height: 89vh;
 }
 .hero-btn{
  text-decoration: none;
- background-color: #344998;
+ background-color: #8a2be2;
  border: none;
  color: white;
  font-weight: 700;
@@ -47,8 +47,8 @@ transition: transform 0.3s ease;
 display: inline-block;
 }
 .hero-btn:hover{
-    background-color: #344998;
-    box-shadow:0 10px 30px #344998;
+    background-color: #8a2be2;
+    box-shadow:0 10px 30px #8a2be2;
     transform: translateY(-4px);
 }
 
@@ -82,11 +82,11 @@ display: inline-block;
  transform: translateY(-5px);  
 }
 .pro-3{
-    background-color: rgb(22, 103, 20);
+    background-color:#892be2da;
     color:white;
     border-radius: 10px;
     text-decoration: none;
-    box-shadow:0 10px 30px rgb(22, 103, 20) ;
+    box-shadow:0 10px 30px #892be270 ;
     display: inline-block;
     transition: transform 0.3s ease  ;
 }
@@ -213,7 +213,7 @@ footer{
 
 .skill-card{
   background: #1b222c;
-  border: 1px solid rgba(255,255,255,.08);
+  border: 1px solid rgba(138, 43, 226, 0.3);
   border-radius: 14px;
   padding: 22px;
   text-align: left;
@@ -251,7 +251,7 @@ footer{
   display: block;
   height: 100%;
   border-radius: 999px;
-  background: linear-gradient(90deg, #4f8cff, #65d6ff);
+  background: linear-gradient(90deg, #8a2be2, #a855f7);
 }
 
 
@@ -270,7 +270,7 @@ footer{
   font-size: 13px;
 }
 .chip:hover{
- box-shadow:0 10px 10px rgba(21, 21, 82, 0.764) ;
+ box-shadow:0 10px 10px  #892be2c2 ;
 }
 
 
