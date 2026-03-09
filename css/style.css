@@ -51,6 +51,48 @@ display: inline-block;
     box-shadow:0 10px 30px #8a2be2;
     transform: translateY(-4px);
 }
+.tech-stack{
+  margin-top:20px;
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+}
+
+.tech-stack span{
+  background:rgba(123,97,255,0.15);
+  color:#b9a9ff;
+  padding:6px 14px;
+  border-radius:20px;
+  font-size:14px;
+  font-weight:500;
+  border:1px solid rgba(123,97,255,0.4);
+  transition:0.3s;
+}
+
+.tech-stack span:hover{
+  background:#7b61ff;
+  color:white;
+  transform:translateY(-2px);
+}
+.about{
+  height: 60vh;
+  justify-content: center;
+  
+
+}
+span{
+  color: #8a2be2;
+}
+
+.about-text{
+  max-width:650px ;
+  margin-top: 50px;
+}
+.about-title{
+   font-weight: 800;
+   
+}
+
 
 .projects{
     width:500px;

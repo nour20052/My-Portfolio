@@ -10,7 +10,7 @@
 </head>
 <body  data-bs-theme="dark">
     <header>
-        <nav class="navbar navbar-expand-lg  ">
+        <nav class="navbar  navbar-expand-lg  ">
           <div class="container-fluid">
              <a class="navbar-brand " href="index.html">NM.</a>
              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,13 +23,16 @@
                    <a class="nav-link active " href="index.html">Home</a>
                  </li>
                  <li class="nav-item ">
+                   <li class="nav-item ">
+                    <a class="nav-link" href="#about">About</a>
+                 </li>
                     <a class="nav-link" href="#mywork">My Work</a>
                  </li>
                  <li class="nav-item ">
                     <a class="nav-link" href="#skills">Skills</a>
                  </li>
                  <li class="nav-item ">
-                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                    <a class="nav-link" href="#testimonials">feedback</a>
                  </li>
                  <li class="nav-item ">
                     <a class="nav-link" href="#recent_work">Recent Work</a>
@@ -52,54 +55,34 @@
     <main class="container-fluid">
        <section class="hero d-flex py-5 align-items-center justify-content-between ">
         <div class=" col-lg-6 col-md-6 ms-lg-5 col-6 hero-content">
-            <h2 class="hero-title mb-3">Nour Magdy</h2>
-            <p class="hero-text mb-5">Frontend Developer specializing in building responsive and modern web interfaces using HTML, CSS, JavaScript, and Bootstrap. I focus on delivering clean code and seamless user experiences.</p>
+            <h1 class="hero-title mb-3">Nour Magdy</h1>
+            <p class="hero-text text-muted mb-5">I'm Frontend Developer</p>
+           
             <a href="#mywork" class=" hero-btn px-4 py-3 pb-1"> <p>Get Started <i class="fa-solid fa-arrow-right"></i></p></a>
             <a href="Nour_Magdy_CV.pdf" class=" hero-btn px-4 py-3 pb-1 ms-lg-4  mt-2" target="_blank"> <p>View My CV <i class="fa-solid fa-arrow-right"></i></p></a>
+            <div class="tech-stack">
+  <span>HTML</span>
+  <span>CSS</span>
+  <span>JavaScript</span>
+  <span>Bootstrap</span>
+</div>
         </div>
         <div class="col-lg-5 col-md-6 col-6 text-center  mx-lg-auto">
          <img src="img/photo_2026-02-26_16-38-31.jpg" alt="profile" class="profile_pic">
         </div>
+        
        </section>
-       <section id="mywork"class="bg-light-subtle container-fluid px-0 " >
-         <h2 class="text-center mb-3 mt-3">My Work</h2>
-         <p class="text-center mb-5 mx-5">I designed and developed multiple responsive websites and web pages including a gym website, a flight booking website, an e-commerce website, and a pricing page using HTML, CSS, Bootstrap, and JavaScript</p>
-         <div >
-            <div class=" row g-0 mb-5">
-               <img src="img/e-commerce.png" alt="e-commerce" class="projects  ms-lg-4 col-md-11 col-11">
-               <div class = "col-lg-5 col-md-5 col-11  ms-lg-3 ms-3 mt-2">
-               <h4 class="my-3 head">e-commerce website</h4>
-               <p class="p-content mb-5">I created an e-commerce website that allows users to browse products and view product details. </p>
-               <a href="https://nour20052.github.io/e-commerce-nti-/" class="px-lg-5 px-3 py-3 me-1  pro-1">View project</a>
-              </div>
-            </div>
-            <div class="row g-0 mb-5 justify-content-between">
-               <div class = "col-lg-5 col-md-3 col-11 ms-lg-4 me-md-2 ms-md-2 ms-1 mt-2">
-               <h4 class="my-3 head">Gym website</h4>
-               <p class="p-content mb-5">This is a gym website that I designed and developed to present gym services, workout programs, and membership details.</p>
-               <a href="https://nour20052.github.io/engage/" class="px-lg-5 px-3 py-3 mt-3 pro-2 ms-1">View project</a>
-               </div>
-               <img src="img/enage.png" alt="information web"class="projects me-lg-4 col-md-11 col-11">
-            </div>
-            <div class="row g-0 mb-5 ">
-               <img src="img/pricing.png" alt="pricing"class="projects ms-lg-3 col-md-11 col-11">
-               <div class = "col-lg-5 col-md-5 col-11 ms-lg-4 ms-lg-2 ms-1">
-               <h4  class="my-3 mb-4 head" >pricing page</h4>
-               <p class="p-content mb-5">I designed and developed a responsive pricing page showcasing different plans with clear and user-friendly layout </p>
-               <a href="https://nour20052.github.io/pricing/"class="px-lg-5 px-3 py-3 pro-3 ms-2">View project</a>
-               </div>
-            </div>
-            <div class="row g-0 justify-content-between">
-              
-               <div class = "col-lg-5 col-md-2 col-11 ms-3">
-               <h4 class="my-5 head">flight booking website</h4>
-               <p class="p-content mb-5">This is a flight booking website that I designed and developed to allow users to browse flights and book tickets through a clean and user-friendly interface.</p>
-               </div>
-                <img src="img/web-design.png" alt="web-project"class="projects me-lg-5 me-3 mb-3 col-md-11 col-11">
-            </div>
-         </div>
+       <section class="about bg-body-tertiary d-flex justify-content-center gap-5 pt-5 vh-75" id="about">
+       <div>
+        <h1 class="fs-1 about-title mt-5">Hello,<br>I'm <span> Nour </span></h1>
+       </div>
+       <div>
+       <p class="about-text mb-5 fs-5 ">Im a junior student at the Faculty of Science, majoring in <span>Computer Science </span>. I chose to specialize in the Front-End track, where <span> I learned HTML, CSS, Bootstrap and JavaScript </span>. I truly enjoy building projects and turning ideas into real, functional interfaces.
+      I am passionate about learning and continuously improving my skills, always aiming to create modern solutions that keep up with current market trends. I am adaptable and able to work effectively both independently and within a team. I always strive to add real value to the work I do</p>
+           
+       </div>
        </section>
-       <section class="skills-section" id="skills">
+          <section class="skills-section" id="skills">
   <div class="skills-container">
     <h2 class="skills-title">Skills</h2>
     <p class="skills-subtitle">
@@ -189,14 +172,55 @@
           <span class="chip">sql</span>
           <span class="chip">English-B2</span>
           <span class="chip">Teamwork</span>
+          <span class="chip">Communication</span>
+          
         </div>
       </div>
 
     </div>
   </div>
 </section>
+       <section id="mywork"class="bg-light-subtle container-fluid px-0 pt-4 " >
+         <h2 class="text-center mb-3 mt-3">My Work</h2>
+         <p class="text-center mb-5 mx-5">I designed and developed multiple responsive websites and web pages including a gym website, a flight booking website, an e-commerce website, and a pricing page using HTML, CSS, Bootstrap, and JavaScript</p>
+         <div >
+            <div class=" row g-0 mb-5">
+               <img src="img/e-commerce.png" alt="e-commerce" class="projects  ms-lg-4 col-md-11 col-11">
+               <div class = "col-lg-5 col-md-5 col-11  ms-lg-3 ms-3 mt-2">
+               <h4 class="my-3 head">e-commerce website</h4>
+               <p class="p-content mb-5">I created an e-commerce website that allows users to browse products and view product details. </p>
+               <a href="https://nour20052.github.io/e-commerce-nti-/" class="px-lg-5 px-3 py-3 me-1  pro-1">View project</a>
+              </div>
+            </div>
+            <div class="row g-0 mb-5 justify-content-between">
+               <div class = "col-lg-5 col-md-3 col-11 ms-lg-4 me-md-2 ms-md-2 ms-1 mt-2">
+               <h4 class="my-3 head">Gym website</h4>
+               <p class="p-content mb-5">This is a gym website that I designed and developed to present gym services, workout programs, and membership details.</p>
+               <a href="https://nour20052.github.io/engage/" class="px-lg-5 px-3 py-3 mt-3 pro-2 ms-1">View project</a>
+               </div>
+               <img src="img/enage.png" alt="information web"class="projects me-lg-4 col-md-11 col-11">
+            </div>
+            <div class="row g-0 mb-5 ">
+               <img src="img/pricing.png" alt="pricing"class="projects ms-lg-3 col-md-11 col-11">
+               <div class = "col-lg-5 col-md-5 col-11 ms-lg-4 ms-lg-2 ms-1">
+               <h4  class="my-3 mb-4 head" >pricing page</h4>
+               <p class="p-content mb-5">I designed and developed a responsive pricing page showcasing different plans with clear and user-friendly layout </p>
+               <a href="https://nour20052.github.io/pricing/"class="px-lg-5 px-3 py-3 pro-3 ms-2">View project</a>
+               </div>
+            </div>
+            <div class="row g-0 justify-content-between">
+              
+               <div class = "col-lg-5 col-md-2 col-11 ms-3">
+               <h4 class="my-5 head">flight booking website</h4>
+               <p class="p-content mb-5">This is a flight booking website that I designed and developed to allow users to browse flights and book tickets through a clean and user-friendly interface.</p>
+               </div>
+                <img src="img/web-design.png" alt="web-project"class="projects me-lg-5 me-3 mb-3 col-md-11 col-11">
+            </div>
+         </div>
+       </section>
+    
        <section id="testimonials"class="container" >
-      <h2 class="text-center mb-3 mt-3">Testimonials</h2>
+      <h2 class="text-center mb-3 mt-3">Feedback</h2>
       <p class="text-center mb-5">Real feedback from clients and collaborators about my work and dedication to building modern,responsive web experiences</p>
       <div class="row gap-2 justify-content-between">
       <div class="col-lg-5 col-md-5 col-12 mb-3 test ms-lg-5">
